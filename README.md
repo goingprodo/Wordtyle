@@ -27,7 +27,7 @@ cd wordtyle
 ### 2. Create Virtual Environment
 
 ```bash
-python -m venv venv
+python -3.12 -m venv venv
 
 # Windows
 venv\Scripts\activate
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 #### GPU Installation (Recommended)
 ```bash
 # Install PyTorch with CUDA support
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 
 # Install basic requirements
 pip install -r requirements.txt
