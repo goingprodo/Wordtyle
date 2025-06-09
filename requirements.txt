@@ -1,0 +1,31 @@
+# 기본 패키지
+#torch>=2.0.0
+#torchvision>=0.15.0
+#torchaudio>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+tokenizers>=0.13.0
+
+# Gradio 및 UI
+gradio>=3.50.0
+
+# 데이터 처리
+numpy>=1.21.0
+pandas>=1.5.0
+scikit-learn>=1.0.0
+
+# 임베딩 및 벡터 검색
+faiss-cpu>=1.7.0
+# faiss-gpu>=1.7.0  # GPU 버전 원할 시 주석 해제
+
+# 가속화 라이브러리 (선택사항)
+# xformers>=0.0.20  # GPU 메모리 최적화
+# triton>=2.0.0     # CUDA 커널 최적화  
+# flash-attn>=2.0.0 # Flash Attention 2
+
+# 기타 유틸리티
+openai==0.28.1
+deepl>=1.12.0
+playwright>=1.0.0
+tqdm>=4.65.0
+datasets>=2.12.0
